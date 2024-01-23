@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DA75EB2C-5B1B-427A-BD9A-B73A4B46248F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "108537B9-5C63-4AFA-9AAE-9B088708B4DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleQuiz5/QuizViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "QuizViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "108537B9-5C63-4AFA-9AAE-9B088708B4DC - 4066827f23a45d18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleQuiz5.QuizViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SampleQuiz5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emioiso/Desktop/Storyboard/SampleQuiz5/SampleQuiz5/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "108537B9-5C63-4AFA-9AAE-9B088708B4DC - 4066827f23a45d5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleQuiz5.QuizViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SampleQuiz5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emioiso/Desktop/Storyboard/SampleQuiz5/SampleQuiz5/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "108537B9-5C63-4AFA-9AAE-9B088708B4DC - 59d305126f84dda1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleQuiz5.QuizViewController.answerButton4.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "SampleQuiz5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emioiso/Desktop/Storyboard/SampleQuiz5/SampleQuiz5/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "108537B9-5C63-4AFA-9AAE-9B088708B4DC - b32d8553f25e6db5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleQuiz5.QuizViewController.answerButton4.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "SampleQuiz5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emioiso/Desktop/Storyboard/SampleQuiz5/SampleQuiz5/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "108537B9-5C63-4AFA-9AAE-9B088708B4DC - 19de309309a16cbe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleQuiz5.QuizViewController.answerButton4.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "SampleQuiz5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emioiso/Desktop/Storyboard/SampleQuiz5/SampleQuiz5/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "108537B9-5C63-4AFA-9AAE-9B088708B4DC - 73cc0b62b30c3c51"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleQuiz5.QuizViewController.answerButton4.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SampleQuiz5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emioiso/Desktop/Storyboard/SampleQuiz5/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "108537B9-5C63-4AFA-9AAE-9B088708B4DC - 8b7907df74d77c33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleQuiz5.QuizViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SampleQuiz5.QuizViewController"
+                  moduleName = "SampleQuiz5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emioiso/Desktop/Storyboard/SampleQuiz5/SampleQuiz5/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "288">
+               </Location>
+               <Location
+                  uuid = "108537B9-5C63-4AFA-9AAE-9B088708B4DC - 1f63c0c9dcba3938"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleQuiz5.QuizViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SampleQuiz5.QuizViewController&gt;"
+                  moduleName = "SampleQuiz5"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emioiso/Desktop/Storyboard/SampleQuiz5/SampleQuiz5/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "264">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0A6CD65-7212-4EA6-B3A5-30D34CDC038F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleQuiz5/QuizViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
