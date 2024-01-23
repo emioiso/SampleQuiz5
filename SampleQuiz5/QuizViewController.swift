@@ -21,12 +21,15 @@ class QuizViewController: UIViewController {
     var quizArray: [String] = []
     var quizCount = 0
     var correctCount = 0
+    var selectLevel = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        csvArray = loadCSV(fileName: "quiz")
-        print(csvArray)
+        print("選択したのはレベル\(selectLevel)")
+        
+        csvArray = loadCSV(fileName: "quiz\(selectLevel)")
+        csvArray.shuffle()
         
         quizArray = csvArray[quizCount].components(separatedBy: ",")
         
