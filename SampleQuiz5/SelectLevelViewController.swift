@@ -12,7 +12,7 @@ class SelectLevelViewController: UIViewController {
     @IBOutlet var level2Button: UIButton!
     @IBOutlet var level3Button: UIButton!
     
-    var SelectTag = 0
+    var selectTag = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,12 +31,12 @@ class SelectLevelViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let quizVC = segue.destination as! QuizViewController
-        quizVC.selectLevel = SelectTag
+        quizVC.selectLevel = selectTag
     }
     
     @IBAction func levelButtonAction(sender:UIButton){
         print(sender.tag)
-        SelectTag = sender.tag
+        selectTag = sender.tag
         performSegue(withIdentifier: "toQuizVC", sender: nil)
         
     }

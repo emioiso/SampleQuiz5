@@ -12,11 +12,12 @@
 		850901EC2B5E88FB0000BBBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850901EB2B5E88FB0000BBBE /* SceneDelegate.swift */; };
 		850901EE2B5E88FB0000BBBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850901ED2B5E88FB0000BBBE /* ViewController.swift */; };
 		850901F12B5E88FB0000BBBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850901EF2B5E88FB0000BBBE /* Main.storyboard */; };
-		850901F32B5E88FB0000BBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850901F22B5E88FB0000BBBE /* Assets.xcassets */; };
 		850901F62B5E88FB0000BBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850901F42B5E88FB0000BBBE /* LaunchScreen.storyboard */; };
 		850901FE2B5E8A910000BBBE /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850901FD2B5E8A910000BBBE /* QuizViewController.swift */; };
 		850902002B5E8B6C0000BBBE /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850901FF2B5E8B6C0000BBBE /* ScoreViewController.swift */; };
 		850902022B5E8CD20000BBBE /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 850902012B5E8CD20000BBBE /* quiz1.csv */; };
+		8536DBA12B731ABC00FF48B4 /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 8536DBA02B731ABC00FF48B4 /* launchImageView.png */; };
+		8536DBA32B731B6D00FF48B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8536DBA22B731B6D00FF48B4 /* Assets.xcassets */; };
 		854158F02B5FA578003D6861 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 854158EE2B5FA578003D6861 /* correct.png */; };
 		854158F12B5FA578003D6861 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 854158EF2B5FA578003D6861 /* incorrect.png */; };
 		854158F32B5FA915003D6861 /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854158F22B5FA915003D6861 /* SelectLevelViewController.swift */; };
@@ -28,17 +29,18 @@
 /* Begin PBXFileReference section */
 		642C4C31AA5F7BAA63977B7A /* Pods_SampleQuiz5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleQuiz5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E2ED366B0F1CD94E8ED56D /* Pods-SampleQuiz5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleQuiz5.debug.xcconfig"; path = "Target Support Files/Pods-SampleQuiz5/Pods-SampleQuiz5.debug.xcconfig"; sourceTree = "<group>"; };
-		850901E62B5E88FB0000BBBE /* SampleQuiz5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleQuiz5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		850901E62B5E88FB0000BBBE /* FunnyQuiz5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyQuiz5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		850901E92B5E88FB0000BBBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		850901EB2B5E88FB0000BBBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		850901ED2B5E88FB0000BBBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		850901F02B5E88FB0000BBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		850901F22B5E88FB0000BBBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		850901F52B5E88FB0000BBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		850901F72B5E88FB0000BBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		850901FD2B5E8A910000BBBE /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		850901FF2B5E8B6C0000BBBE /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		850902012B5E8CD20000BBBE /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
+		8536DBA02B731ABC00FF48B4 /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
+		8536DBA22B731B6D00FF48B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		854158EE2B5FA578003D6861 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
 		854158EF2B5FA578003D6861 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
 		854158F22B5FA915003D6861 /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
@@ -74,7 +76,7 @@
 		850901E72B5E88FB0000BBBE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				850901E62B5E88FB0000BBBE /* SampleQuiz5.app */,
+				850901E62B5E88FB0000BBBE /* FunnyQuiz5.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,12 +94,22 @@
 				854158F22B5FA915003D6861 /* SelectLevelViewController.swift */,
 				850901FF2B5E8B6C0000BBBE /* ScoreViewController.swift */,
 				850901FD2B5E8A910000BBBE /* QuizViewController.swift */,
-				850901F22B5E88FB0000BBBE /* Assets.xcassets */,
 				850901F42B5E88FB0000BBBE /* LaunchScreen.storyboard */,
+				8536DBA22B731B6D00FF48B4 /* Assets.xcassets */,
+				8536DB9F2B731ABC00FF48B4 /* launchImage */,
 				854158ED2B5FA578003D6861 /* images */,
 				850901F72B5E88FB0000BBBE /* Info.plist */,
 			);
 			path = SampleQuiz5;
+			sourceTree = "<group>";
+		};
+		8536DB9F2B731ABC00FF48B4 /* launchImage */ = {
+			isa = PBXGroup;
+			children = (
+				8536DBA02B731ABC00FF48B4 /* launchImageView.png */,
+			);
+			name = launchImage;
+			path = ../../../launchImage;
 			sourceTree = "<group>";
 		};
 		854158ED2B5FA578003D6861 /* images */ = {
@@ -129,9 +141,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		850901E52B5E88FB0000BBBE /* SampleQuiz5 */ = {
+		850901E52B5E88FB0000BBBE /* FunnyQuiz5 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 850901FA2B5E88FB0000BBBE /* Build configuration list for PBXNativeTarget "SampleQuiz5" */;
+			buildConfigurationList = 850901FA2B5E88FB0000BBBE /* Build configuration list for PBXNativeTarget "FunnyQuiz5" */;
 			buildPhases = (
 				1EE54B14532A4CCB7E829EDB /* [CP] Check Pods Manifest.lock */,
 				850901E22B5E88FB0000BBBE /* Sources */,
@@ -143,9 +155,9 @@
 			);
 			dependencies = (
 			);
-			name = SampleQuiz5;
+			name = FunnyQuiz5;
 			productName = SampleQuiz5;
-			productReference = 850901E62B5E88FB0000BBBE /* SampleQuiz5.app */;
+			productReference = 850901E62B5E88FB0000BBBE /* FunnyQuiz5.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -176,7 +188,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				850901E52B5E88FB0000BBBE /* SampleQuiz5 */,
+				850901E52B5E88FB0000BBBE /* FunnyQuiz5 */,
 			);
 		};
 /* End PBXProject section */
@@ -186,11 +198,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8536DBA32B731B6D00FF48B4 /* Assets.xcassets in Resources */,
+				8536DBA12B731ABC00FF48B4 /* launchImageView.png in Resources */,
 				854158F52B5FAB44003D6861 /* .gitignore.xib in Resources */,
 				854158F02B5FA578003D6861 /* correct.png in Resources */,
 				854158F12B5FA578003D6861 /* incorrect.png in Resources */,
 				850901F62B5E88FB0000BBBE /* LaunchScreen.storyboard in Resources */,
-				850901F32B5E88FB0000BBBE /* Assets.xcassets in Resources */,
 				854158F92B5FBA60003D6861 /* quiz3.csv in Resources */,
 				850901F12B5E88FB0000BBBE /* Main.storyboard in Resources */,
 				854158F72B5FBA4D003D6861 /* quiz2.csv in Resources */,
@@ -330,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -388,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -413,12 +426,14 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.emioiso.SampleQuiz5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emioiso.SampleQuiz5ver2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -441,12 +456,14 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.emioiso.SampleQuiz5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emioiso.SampleQuiz5ver2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -466,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		850901FA2B5E88FB0000BBBE /* Build configuration list for PBXNativeTarget "SampleQuiz5" */ = {
+		850901FA2B5E88FB0000BBBE /* Build configuration list for PBXNativeTarget "FunnyQuiz5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				850901FB2B5E88FB0000BBBE /* Debug */,

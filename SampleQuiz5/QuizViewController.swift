@@ -24,12 +24,12 @@ class QuizViewController: UIViewController {
     var quizCount = 0
     var correctCount = 0
     var selectLevel = 0
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         bannerView = GADBannerView(adSize: GADAdSizeBanner)
-        bannerView.adUnitID = "ca-app-pub-7923877881339580/8516320627"
+        bannerView.adUnitID = "ca-app-pub-7923877881339580/6477368690"
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         addBannerViewToView(bannerView)
@@ -89,11 +89,13 @@ class QuizViewController: UIViewController {
             self.answerButton4.isEnabled = true
             self.nextQuiz()
         }
-//        nextQuiz()
+        //        nextQuiz()
     }
     
     func nextQuiz(){
         quizCount += 1
+        print("csvArray.count")
+        print(csvArray.count)
         if quizCount < csvArray.count {
             quizArray = csvArray[quizCount].components(separatedBy: ",")
             quizNumberLabel.text = "第\(quizCount + 1)問"
@@ -106,7 +108,7 @@ class QuizViewController: UIViewController {
             performSegue(withIdentifier: "toScoreVC", sender: nil)
         }
     }
-
+    
     
     func loadCSV(fileName:String) -> [String]{
         let csvBundle = Bundle.main.path(forResource: fileName, ofType: "csv")!
@@ -120,6 +122,7 @@ class QuizViewController: UIViewController {
         }
         return csvArray
     }
+    
     
     func addBannerViewToView(_ bannerView: GADBannerView){
         bannerView.translatesAutoresizingMaskIntoConstraints = false
@@ -142,13 +145,14 @@ class QuizViewController: UIViewController {
             ])
     }
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
+    //}
 }
