@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00CA375F25DFDDC35319B0C9 /* Pods_SampleQuiz5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642C4C31AA5F7BAA63977B7A /* Pods_SampleQuiz5.framework */; };
+		00CA375F25DFDDC35319B0C9 /* Pods_FunnyQuiz5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642C4C31AA5F7BAA63977B7A /* Pods_FunnyQuiz5.framework */; };
 		850901EA2B5E88FB0000BBBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850901E92B5E88FB0000BBBE /* AppDelegate.swift */; };
 		850901EC2B5E88FB0000BBBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850901EB2B5E88FB0000BBBE /* SceneDelegate.swift */; };
 		850901EE2B5E88FB0000BBBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850901ED2B5E88FB0000BBBE /* ViewController.swift */; };
@@ -27,7 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		642C4C31AA5F7BAA63977B7A /* Pods_SampleQuiz5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleQuiz5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		487826992371E2AF7E39FCAC /* Pods-FunnyQuiz5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunnyQuiz5.debug.xcconfig"; path = "Target Support Files/Pods-FunnyQuiz5/Pods-FunnyQuiz5.debug.xcconfig"; sourceTree = "<group>"; };
+		642C4C31AA5F7BAA63977B7A /* Pods_FunnyQuiz5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunnyQuiz5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E2ED366B0F1CD94E8ED56D /* Pods-SampleQuiz5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleQuiz5.debug.xcconfig"; path = "Target Support Files/Pods-SampleQuiz5/Pods-SampleQuiz5.debug.xcconfig"; sourceTree = "<group>"; };
 		850901E62B5E88FB0000BBBE /* FunnyQuiz5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyQuiz5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		850901E92B5E88FB0000BBBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		854158F42B5FAB44003D6861 /* .gitignore.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = .gitignore.xib; sourceTree = "<group>"; };
 		854158F62B5FBA4D003D6861 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = quiz2.csv; sourceTree = "<group>"; };
 		854158F82B5FBA60003D6861 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = quiz3.csv; sourceTree = "<group>"; };
+		96225DB90FFBCDE157E9AE60 /* Pods-FunnyQuiz5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunnyQuiz5.release.xcconfig"; path = "Target Support Files/Pods-FunnyQuiz5/Pods-FunnyQuiz5.release.xcconfig"; sourceTree = "<group>"; };
 		E1B591FB77F0C596480AB79C /* Pods-SampleQuiz5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleQuiz5.release.xcconfig"; path = "Target Support Files/Pods-SampleQuiz5/Pods-SampleQuiz5.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00CA375F25DFDDC35319B0C9 /* Pods_SampleQuiz5.framework in Frameworks */,
+				00CA375F25DFDDC35319B0C9 /* Pods_FunnyQuiz5.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				854158F42B5FAB44003D6861 /* .gitignore.xib */,
-				850901E82B5E88FB0000BBBE /* SampleQuiz5 */,
+				850901E82B5E88FB0000BBBE /* FunnyQuiz5 */,
 				850901E72B5E88FB0000BBBE /* Products */,
 				DD958736800FEF5F64267DE3 /* Pods */,
 				957CA317787AEBAA186ACD9A /* Frameworks */,
@@ -81,7 +83,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		850901E82B5E88FB0000BBBE /* SampleQuiz5 */ = {
+		850901E82B5E88FB0000BBBE /* FunnyQuiz5 */ = {
 			isa = PBXGroup;
 			children = (
 				850902012B5E8CD20000BBBE /* quiz1.csv */,
@@ -100,7 +102,7 @@
 				854158ED2B5FA578003D6861 /* images */,
 				850901F72B5E88FB0000BBBE /* Info.plist */,
 			);
-			path = SampleQuiz5;
+			path = FunnyQuiz5;
 			sourceTree = "<group>";
 		};
 		8536DB9F2B731ABC00FF48B4 /* launchImage */ = {
@@ -124,7 +126,7 @@
 		957CA317787AEBAA186ACD9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				642C4C31AA5F7BAA63977B7A /* Pods_SampleQuiz5.framework */,
+				642C4C31AA5F7BAA63977B7A /* Pods_FunnyQuiz5.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,6 +136,8 @@
 			children = (
 				65E2ED366B0F1CD94E8ED56D /* Pods-SampleQuiz5.debug.xcconfig */,
 				E1B591FB77F0C596480AB79C /* Pods-SampleQuiz5.release.xcconfig */,
+				487826992371E2AF7E39FCAC /* Pods-FunnyQuiz5.debug.xcconfig */,
+				96225DB90FFBCDE157E9AE60 /* Pods-FunnyQuiz5.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -229,7 +233,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SampleQuiz5-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FunnyQuiz5-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -242,15 +246,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleQuiz5/Pods-SampleQuiz5-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FunnyQuiz5/Pods-FunnyQuiz5-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleQuiz5/Pods-SampleQuiz5-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FunnyQuiz5/Pods-FunnyQuiz5-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleQuiz5/Pods-SampleQuiz5-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FunnyQuiz5/Pods-FunnyQuiz5-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -413,7 +417,7 @@
 		};
 		850901FB2B5E88FB0000BBBE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65E2ED366B0F1CD94E8ED56D /* Pods-SampleQuiz5.debug.xcconfig */;
+			baseConfigurationReference = 487826992371E2AF7E39FCAC /* Pods-FunnyQuiz5.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -421,7 +425,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z8QC62V2F3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SampleQuiz5/Info.plist;
+				INFOPLIST_FILE = FunnyQuiz5/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -443,7 +447,7 @@
 		};
 		850901FC2B5E88FB0000BBBE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1B591FB77F0C596480AB79C /* Pods-SampleQuiz5.release.xcconfig */;
+			baseConfigurationReference = 96225DB90FFBCDE157E9AE60 /* Pods-FunnyQuiz5.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,7 +455,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z8QC62V2F3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SampleQuiz5/Info.plist;
+				INFOPLIST_FILE = FunnyQuiz5/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
